@@ -61,7 +61,7 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans    &trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
+&kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
 &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans      &trans  &trans          &trans          &trans           &trans    &trans  &trans          &trans          &trans           &trans  &trans
                                     &trans          &trans           &trans    &trans  &trans          &trans
