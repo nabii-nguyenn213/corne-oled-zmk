@@ -22,9 +22,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F             &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &kp LEFT_GUI
+&kp TAB    &kp Q  &kp W  &kp F             &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &kp RIGHT_ALT
 &kp BSPC   &kp A  &kp R  &kp S             &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
                          &kp LEFT_CONTROL  &mo 1  &kp ENTER    &kp SPACE  &mo 3  &mo 2
             >;
         };
@@ -38,8 +38,8 @@
 
             bindings = <
 &kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6   &kp N7  &kp N8    &kp N9  &kp N0           &kp BSPC
-&trans     &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans           &trans
+&trans     &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &trans           &kp ENTER
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans   &trans  &trans    &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF
                            &kp LGUI  &trans  &kp SPACE    &kp RET  &trans  &kp RALT
             >;
         };
@@ -61,7 +61,7 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &trans  &trans          &kp UP_ARROW    &trans           &trans    &trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
+&kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW    &kp END          &trans    &trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans  &trans
 &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans      &trans  &trans          &trans          &trans           &trans    &trans  &trans          &trans          &trans           &trans  &trans
                                     &trans          &trans           &trans    &trans  &trans          &trans
