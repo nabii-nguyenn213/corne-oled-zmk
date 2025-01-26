@@ -11,12 +11,6 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    move_bindings {
-        MOVE_UP:    { x = 0; y = -30; };
-        MOVE_DOWN:  { x = 0; y = 30; };
-        MOVE_LEFT:  { x = -30; y = 0; };
-        MOVE_RIGHT: { x = 30; y = 0; };
-    };
     keymap {
         compatible = "zmk,keymap";
 
