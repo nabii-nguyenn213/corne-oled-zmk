@@ -23,10 +23,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F             &kp P  &kp G        &kp J      &kp L  &kp U          &kp Y    &kp SEMI  &kp ESCAPE
-&kp BSPC   &kp A  &kp R  &kp S             &kp T  &kp D        &kp H      &kp N  &kp E          &kp I    &kp O     &kp APOS
-&kp LSHFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp K      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp LEFT_GUI
-                         &kp LEFT_CONTROL  &mo 1  &kp ENTER    &kp SPACE  &mo 3  &kp RIGHT_ALT
+&kp TAB    &kp Q  &kp W  &kp F             &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &kp RIGHT_ALT
+&kp BSPC   &kp A  &kp R  &kp S             &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
+                         &kp LEFT_CONTROL  &mo 1  &kp ENTER    &kp SPACE  &mo 3  &mo 2
             >;
         };
 
@@ -65,7 +65,7 @@
 &kp ESCAPE  &trans  &kp HOME        &kp UP_ARROW     &kp END            &trans    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &kp DEL
 &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW    &trans    &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans      &trans  &trans          &kp LC(PAGE_UP)  &kp RC(PAGE_DOWN)  &trans    &trans  &trans          &trans          &trans           &trans  &trans
-                                    &trans           &trans             &mo 2     &trans  &trans          &trans
+                                    &trans           &trans             &sl 2     &trans  &trans          &trans
             >;
         };
     };
