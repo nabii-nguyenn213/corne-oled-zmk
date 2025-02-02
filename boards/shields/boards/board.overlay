@@ -20,13 +20,17 @@
     pinctrl-names = "default", "sleep";
 };
 
-&chosen {
-    zmk,backlight = &backlight;
+/ {
+    backlight: pwmleds {
+        compatible = "pwm-leds";
+        pwm_led_0 {
+            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
+        };
+    };
 };
 
-&backlight {
-    compatible = "pwm-backlight";
-    pwms = <&pwm0 0 1000000 0>;
-    brightness-levels = <0 1 2 3 4 5 6 7 8 9>;
-    default-brightness = <5>;
+/ {
+    chosen {
+        zmk,backlight = &backlight;
+    };
 };
