@@ -23,10 +23,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp G        &kp J      &kp L                &kp U              &kp Y            &kp SEMI         &kp GRAVE
-&kp BSPC   &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp D        &kp H      &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_WIN O  &kp APOS
-&kp LSHFT  &kp Z           &kp X           &kp C             &kp V               &kp B        &kp K      &kp M                &kp COMMA          &kp DOT          &kp FSLH         &kp LEFT_GUI
-                                           &kp LEFT_CONTROL  &mo 1               &kp ENTER    &kp SPACE  &mo 3                &mo 2
+&kp TAB    &kp Q  &kp W  &kp F             &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMI  &kp GRAVE
+&kp BSPC   &kp A  &kp R  &kp S             &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O     &kp APOS
+&kp LSHFT  &kp Z  &kp X  &kp C             &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
+                         &kp LEFT_CONTROL  &mo 1  &kp ENTER    &kp SPACE  &mo 3  &mo 2
             >;
         };
 
@@ -38,10 +38,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1  &kp N2  &kp N3            &kp N4  &kp N5       &kp N6     &kp N7  &kp N8    &kp N9  &kp N0           &kp BSPC
-&kt BSPC    &kp F1  &kp F2  &kp F3            &kp F4  &kp F5       &kp F6     &kp F7  &kp F8    &kp F9  &kp F10          &kp ENTER
-&kp LSHFT   &trans  &trans  &trans            &trans  &trans       &trans     &trans  &trans    &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF
-                            &kp LEFT_CONTROL  &trans  &kp ENTER    &kp SPACE  &trans  &kp RALT
+&kp ESCAPE  &kp N1           &kp N2           &kp N3             &kp N4               &kp N5       &kp N6     &kp N7                &kp N8              &kp N9            &kp N0             &kp BSPC
+&kt BSPC    &mt LEFT_GUI F1  &mt LEFT_ALT F2  &mt LEFT_SHIFT F3  &mt LEFT_CONTROL F4  &kp F5       &kp F6     &mt RIGHT_CONTROL F7  &mt RIGHT_SHIFT F8  &mt RIGHT_ALT F9  &mt RIGHT_GUI F10  &kp ENTER
+&kp LSHFT   &trans           &trans           &trans             &trans               &trans       &trans     &trans                &trans              &trans            &rgb_ug RGB_TOG    &rgb_ug RGB_EFF
+                                              &kp LEFT_CONTROL   &trans               &kp ENTER    &kp SPACE  &trans                &kp RALT
             >;
         };
 
