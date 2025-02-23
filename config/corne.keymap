@@ -45,10 +45,10 @@
 
         raise_layer {
             bindings = <
-&kp ESC         &kp NON_US_BACKSLASH  &kp HOME           &kp UP            &kp END          &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp MINUS      &kp EQUAL
-&kp BSPC        &kp PRINTSCREEN       &kp LEFT           &kp DOWN_ARROW    &kp RIGHT        &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LC(PG_UP)  &kp LC(PG_DN)
-&kp LEFT_SHIFT  &rgb_ug RGB_TOG       &kp C_VOLUME_DOWN  &kp C_MUTE        &kp C_VOLUME_UP  &kp LEFT_BRACE          &kp RIGHT_BRACE        &trans          &trans          &trans           &trans         &kp RIGHT_GUI
-                                                         &kp LEFT_CONTROL  &trans           &kp ENTER               &kp SPACE              &trans          &kp RIGHT_ALT
+&kp ESC         &kp NON_US_BACKSLASH  &kp HOME   &kp UP            &kp END    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &key_repeat      &kp DEL
+&kp BSPC        &kp PRINTSCREEN       &kp LEFT   &kp DOWN_ARROW    &kp RIGHT  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LC(PG_UP)    &kp LC(PG_DN)
+&kp LEFT_SHIFT  &kp UNDERSCORE        &kp MINUS  &kp PLUS          &kp EQUAL  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp C_VOL_DN    &kp C_MUTE      &kp C_VOLUME_UP  &rgb_ug RGB_TOG  &kp RIGHT_GUI
+                                                 &kp LEFT_CONTROL  &trans     &kp ENTER               &kp SPACE              &trans          &kp RIGHT_ALT
             >;
         };
     };
